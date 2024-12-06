@@ -1,0 +1,11 @@
+```html
+<div class="flex">
+  <div class="bg-red-500 p-4">
+    This is a red box.
+  </div>
+  <div class="bg-blue-500 p-4">
+    This is a blue box.
+  </div>
+</div>
+```
+This code snippet uses Tailwind CSS classes to style two divs. However, if you inspect the element, you might find that the blue box is overlapping the red box. This is because Tailwind, by default, uses `inline` display for flex items. If you don't set a width or height on the boxes, the overlapping issue can occur.
